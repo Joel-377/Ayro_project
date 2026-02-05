@@ -9,7 +9,7 @@ app = Flask(__name__)
 socketio = SocketIO(app, async_mode="threading")
 
 WORLD_SIZE = 1000
-FOOD_COUNT = 1000
+FOOD_COUNT = 500
 SPAWN_RADIUS = 20
 ORB_RADIUS = 6
 RESPAWN_PROTECT_TIME = 2
